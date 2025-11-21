@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Dimas Store</title>
+<title>NHK Store</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Open+Sans">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -102,7 +102,7 @@ body {
 </head> 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
-	<a href="#" class="navbar-brand">Dimas<b>Store</b></a>  		
+	<a href="#" class="navbar-brand">NHK<b>Store</b></a>  		
 	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
 		<span class="navbar-toggler-icon"></span>
 	</button>
