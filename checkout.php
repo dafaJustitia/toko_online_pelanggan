@@ -24,7 +24,7 @@
 
     // Jika keranjang ada isinya, baru kita proses (Kodingan Aslimu)
     if (count($keranjang) > 0) {
-        $tgl_transaksi = date('Y-m-d H:i:s');
+        $tgl_transaksi = date('Y-m-d');
         
         // Insert Transaksi
         $query_transaksi = mysqli_query($koneksi, "INSERT INTO transaksi (id_pelanggan, tgl_transaksi)
