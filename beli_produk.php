@@ -27,7 +27,7 @@
     <section class="py-5 text-center container">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="../petugas/gambar/<?= $data_produk['foto_produk'] ?>" class="img-fluid" alt=".."
+                <img src="../gambar/<?= $data_produk['foto_produk'] ?>" class="img-fluid" alt=".."
                  width="250px" height="1000px">
             </div>
         <div class="col-md-8">

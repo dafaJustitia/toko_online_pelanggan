@@ -73,7 +73,6 @@
             <div class="card shadow-sm">
                 <img src="../gambar/<?=$data_produk['foto_produk']?>" class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
                 <rect width="100%" height="100%" fill="#55595c"/></img>
-
                 <div class="card-body">
                 <p class="card-text"><b><?=$data_produk['nama_produk']?></b></p>
                 <p class="card-text"><?=$data_produk['deskripsi']?></p>
