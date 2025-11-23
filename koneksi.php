@@ -5,7 +5,7 @@
     
     $userName = "toko_user";         // Username yang kita buat tadi
     $password = "Shofi05@";   // Password yang kita buat tadi
-    $database = "tokoonline";       // Nama database di Azure (bukan toko_online2)
+    $database = "toko_online";       // Nama database di Azure (bukan toko_online2)
 
     // Buat koneksi
     // Catatan: Port 3306 biasanya default, tapi Azure kadang butuh SSL (opsional)
