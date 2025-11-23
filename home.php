@@ -46,7 +46,7 @@
     <section class="py-5 text-center container-light">
         <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">NHK Store</h1>
-            <p class="lead text-muted">Find Some Website For Buy About Workshop Equipment ? Just Dimas Store</p>
+            <p class="lead text-muted">Find Some Website For Buy About Workshop Equipment ? Just NHK Store</p>
             <form method="POST" action="home.php" class="d-flex">
                     <input class="form-control me-2" type="search" name="cari"
                     placeholder="Cari Barang" aria-label="Search">
