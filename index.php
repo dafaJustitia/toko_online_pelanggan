@@ -41,6 +41,7 @@
                   </div>  
 
                   <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+                  <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Gunakan Username : tes dan password : 123</h5>
 
                   <div class="form-outline mb-4">
                     <input type="text" id="form2Example17" name="username" class="form-control form-control-lg" required />
