@@ -1,20 +1,22 @@
 <?php
+    // Settingan Koneksi Azure Database
+    // PENTING: Ganti "isi-nama-server-di-sini" dengan Server Name dari Azure
+    $serverName = "tokoonline.mysql.database.azure.com"; 
+    
+    $userName = "toko_user";         // Username yang kita buat tadi
+    $password = "Shofi05@";   // Password yang kita buat tadi
+    $database = "tokoonline";       // Nama database di Azure (bukan toko_online2)
 
-    $serverName ="localhost";
-    $userName = "root";
-    $password = "";
-    $database = "toko_online2";
+    // Buat koneksi
+    // Catatan: Port 3306 biasanya default, tapi Azure kadang butuh SSL (opsional)
+    // Untuk saat ini kita coba koneksi standar dulu.
+    $koneksi = mysqli_connect($serverName, $userName, $password, $database);
 
-    //buat koneksi
-    $koneksi = mysqli_connect($serverName,$userName,$password,$database);
-
-    //cek koneksi
-    // if(!$koneksi){
-    //     die("konesi gagal".mysqli_connect_error());
-    //     // errorno muncul angka
-    //     // eror muncul string
-    // }
+    // Cek koneksi
+    if(!$koneksi){
+        die("Koneksi Gagal: " . mysqli_connect_error());
+    }
     // else {
-    //    echo"koneksi berhasil";
+    //    echo "Koneksi Berhasil";
     // }
 ?>
